@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Mukta+Malar:300,700');
 
 body {
-  font-family: 'Dafoe';
+  font-family: 'Mr Dafoe';
   margin: 0;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .grid-layout nav {
-  text-decoration: none;
+  text-decoration: inherit;
   width: 100%;
   padding: 10%;
   text-align: center;
