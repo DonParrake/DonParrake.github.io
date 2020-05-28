@@ -126,14 +126,14 @@
 
     section.cuatro p.cuatroC:before {
       content: "";
-      height: 5px;
-      width: 100%;
+      height: 100%;
+      width: 5px;
       background-color: #444;
       position: absolute;
-      top: 0;
+      bottom: 0;
       left: 0;
       transform: scaleY(0);
-      transform-origin: left;
+      transform-origin: bottom;
       transition: transform ease-in-out 500ms;
     }
 
@@ -143,14 +143,14 @@
 
     section.cuatro p.cuatroD:before {
       content: "";
-      height: 5px;
-      width: 100%;
+      height: 100%;
+      width: 5px;
       background-color: #444;
       position: absolute;
-      bottom: 0;
-      left: 0;
+      top: 0;
+      right: 0;
       transform: scaleY(0);
-      transform-origin: left;
+      transform-origin: top;
       transition: transform ease-in-out 500ms;
     }
 
