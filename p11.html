@@ -9,7 +9,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Practica 11. Barra de navegacion</title>
   <style>
-
     body {
       margin: 0;
       font-family: 'Work Sans', sans-serif;
@@ -34,7 +33,7 @@
       text-align: center;
       z-index: 999;
       display: grid;
-      grid-template-columns: 1fr auto minmax(600px,5fr) 1fr;
+      grid-template-columns: 1fr auto minmax(600px, 5fr) 1fr;
     }
 
     .logo {
@@ -84,36 +83,67 @@
       left: 0;
       transform: scaleX(0);
       transform-origin: left;
-      transition: transform ease-in-out 250ms;  
+      transition: transform ease-in-out 250ms;
     }
 
     nav a:hover::before {
       transform: scaleX(1);
     }
-
-
   </style>
 </head>
 
 <body>
 
-  <header>
-    <img class="logo" src="https://raw.githubusercontent.com/sorolla-eso/sorolla-eso.github.io/master/logo.png" width="64px" alt="">
-
+  <div class="grid-layout">
+    <header>
+      <h1>Practicas HTML/CSS 2020</h1>
+      <p class="header__left-side"><strong>David de Zabala Iborra</strong></p>
+      <p class="header__right-side"><strong>1ºbach B</strong></p>
+    </header>
     <nav>
-      <ul>
-        <li><a href="">Inicio</a></li>
-        <li><a href="">Asignaturas</a></li>
-        <li><a href="">Secretaria</a></li>
-        <li><a href="">Contacto</a></li>
-      </ul>
+      <a href="p1.html">Practica 1</a>
+      <a href="p2.html">Practica 2</a>
+      <a href="p3.html">Practica 3</a>
+      <a href="p4.html">Practica 4</a>
+      <a href="p5.html">Practica 5</a>
+      <a href="p6.html">Practica 6</a>
+      <a href="p7.html">Practica 7</a>
+      <a href="p8.html">Practica 8</a>
+      <a href="p9.html">Practica 9</a>
+      <a href="p10.html">Practica 10</a>
+      <a href="p11.html">Practica 11</a>
+      <a href="P12a.html">Practica 12a</a>
+      <a href="p12b.html">Practica 12b</a>
+      <a href="p12d.html">Practica 12d</a>
+      <a href="p13.html">Practica 13</a>
+      <a href="p14.html">Practica 14</a>
     </nav>
 
-  </header>
+    <div class="main">
+      <header>
+        <img class="logo" src="https://raw.githubusercontent.com/sorolla-eso/sorolla-eso.github.io/master/logo.png" width="64px" alt="">
 
-  <div class="content">
-    <h2>El contenido aquí...</h2>
+        <nav>
+          <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Asignaturas</a></li>
+            <li><a href="">Secretaria</a></li>
+            <li><a href="">Contacto</a></li>
+          </ul>
+        </nav>
+
+      </header>
+
+      <div class="content">
+        <h2>El contenido aquí...</h2>
+      </div>
+    </div>
+
   </div>
+
+
 </body>
 
-</html></html>
+</html>
+
+</html>
