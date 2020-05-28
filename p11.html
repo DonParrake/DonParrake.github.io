@@ -40,14 +40,14 @@
       grid-column: 2 / span 1;
     }
 
-    nav {
+    nav.p11 {
       grid-column: 3 / span 1;
       display: flex;
       justify-content: flex-end;
       align-items: center;
     }
 
-    nav ul {
+    nav.p11 ul {
       display: flex;
       justify-content: flex-end;
       margin: 0;
@@ -55,12 +55,12 @@
       list-style: none;
     }
 
-    nav li {
+    nav.p11 li {
       margin-left: 3em;
       margin-bottom: 0;
     }
 
-    nav a {
+    nav.p11 a {
       color: #444;
       text-decoration: none;
       text-transform: uppercase;
@@ -68,11 +68,11 @@
       position: relative;
     }
 
-    nav a:hover {
+    nav.p11 a:hover {
       color: #000;
     }
 
-    nav a::before {
+    nav.p11 a::before {
       content: "";
       display: block;
       height: 5px;
@@ -86,7 +86,7 @@
       transition: transform ease-in-out 250ms;
     }
 
-    nav a:hover::before {
+    nav.p11 a:hover::before {
       transform: scaleX(1);
     }
   </style>
@@ -100,7 +100,7 @@
       <p class="header__left-side"><strong>David de Zabala Iborra</strong></p>
       <p class="header__right-side"><strong>1ºbach B</strong></p>
     </header>
-    <nav>
+    <nav class="p11">
       <a href="p1.html">Practica 1</a>
       <a href="p2.html">Practica 2</a>
       <a href="p3.html">Practica 3</a>
