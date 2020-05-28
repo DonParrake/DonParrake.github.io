@@ -59,13 +59,11 @@ body {
 }
 
 .grid-layout .header__right-side {
-
+  text-align: right;
+  padding-right: 10px;
 }
 
 .grid-layout .header__left-side {
-
-}
-
-.grid-layout .main {
-
+  text-align: left;
+  padding-left: : 10px;
 }
