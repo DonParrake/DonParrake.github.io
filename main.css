@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+.main {
+  margin: 0 auto;
+}
+
 .grid-layout {
   display: grid;
   grid-template-columns: 1fr 4fr;
