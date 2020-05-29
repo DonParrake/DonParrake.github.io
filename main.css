@@ -32,6 +32,10 @@ body {
   grid-column: 1;
 }
 
+.main {
+  grid-column: 2/3;
+}
+
 
 .grid-layout nav a:before {
   content: "";
