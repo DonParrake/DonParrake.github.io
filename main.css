@@ -29,6 +29,7 @@ body {
   display: block;
   position: relative;
   background-color: lightblue;
+  grid-column: 1;
 }
 
 
