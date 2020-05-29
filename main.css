@@ -29,13 +29,7 @@ body {
   display: block;
   position: relative;
   background-color: lightblue;
-  grid-column: 1;
 }
-
-.main {
-  grid-column: 2/3;
-}
-
 
 .grid-layout nav a:before {
   content: "";
