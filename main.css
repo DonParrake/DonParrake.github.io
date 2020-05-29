@@ -17,6 +17,7 @@ body {
   display: grid;
   grid-template-columns: 4fr 1fr;
   background-color: darkblue;
+  color: white;
 }
 
 .grid-layout header>h1 {
